@@ -1,23 +1,34 @@
 ---
-layout: default
+layout: landing
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+<article id="main">
+  <header style="background-image: url('images/dishes.jpg'); background-attachment: inherit;">
+    <h2>{{ page.title }}</h2>
+  </header>
+</article>
+<section id="three" class="wrapper style2 special">
+  <div class="inner">
+    <header class="major">
+      <h2>Mid-South's experimental wireless data network</h2>
+      <p>HamWAN Memphis Metro is a non-profit building and operating a wide area WiFi network for use by tinkerers, hobbyists, and emergency preparedness groups.</p>
+    </header>
+    <ul class="features">
+      <li class="icon fa-thumbs-up">
+        <h3>Independent</h3>
+        <p>Use our network to pass traffic across town, even when the internet is down.</p>
       </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+      <li class="icon fa-money">
+        <h3>Free</h3>
+        <p>Community driven and supported, connecting to our network is free and there is no registration process.</p>
+      </li>
+      <li class="icon fa-fire">
+        <h3>Fast</h3>
+        <p>With a clear view of one of our cell sites, speeds up to 40 Mbps are possible.</p>
+      </li>
+      <li class="icon fa-users">
+        <h3>Easy to Join</h3>
+        <p>Operating in FCC Part 97 RF spectrum, all licensed amateur radio operators are welcome to participate.</p>
+      </li>
+    </ul>
+  </div>
+</section>

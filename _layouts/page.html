@@ -1,14 +1,10 @@
 ---
 layout: default
 ---
-<article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
-
+<article id="main">
+  <header style="background-image: url('images/dishes.jpg'); background-attachment: inherit;">
+    <h2>{{ page.title }}</h2> </header>
+  <section class="wrapper style5">
+    <div class="inner"> {{ content }} </div>
+  </section>
 </article>
