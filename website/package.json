@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "lint": "eslint core/ pages/ && prettier --write **/*.md ../docs/**/*.md",
+    "examples": "docusaurus-examples",
+    "start": "docusaurus-start",
+    "build": "docusaurus-build",
+    "publish-gh-pages": "docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version"
+  },
+  "devDependencies": {
+    "@callstack/eslint-config": "^4.2.0",
+    "docusaurus": "^2.0.0-alpha.5",
+    "eslint": "5.16.0",
+    "prettier": "1.17.0"
+  }
+}
