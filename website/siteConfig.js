@@ -7,7 +7,7 @@
 
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
-const users = {}
+const users = {};
 const siteConfig = {
   title: 'HamWAN Memphis Metro', // Title for your website.
   tagline: 'Mid-South\'s Experimental Wireless Data Network',
@@ -35,7 +35,7 @@ const siteConfig = {
 
   // If you have users set above, you add it here:
   users,
-
+  cname: 'memhamwan.org',
   /* path to images for header/footer */
   headerIcon: 'img/logo.png',
   footerIcon: 'img/logo.png',
