@@ -15,3 +15,8 @@ _This assumes you already have a working [node](https://nodejs.org/en/download/)
 ## Contributing
 
 This repository is following [GitHub flow](https://guides.github.com/introduction/flow/) -- refer to their documentation for how this process works.
+
+## Standards
+
+- Please draw diagrams using [draw.io](https://draw.io); make sure to embed the source in the diagram, and prefer exporting to SVG format
+

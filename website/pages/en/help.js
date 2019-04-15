@@ -5,6 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+// eslint-disable-next-line import/no-extraneous-dependencies
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -13,8 +14,8 @@ const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
 function Help(props) {
-  const {config: siteConfig, language = ''} = props;
-  const {baseUrl, docsUrl} = siteConfig;
+  const { config: siteConfig, language = '' } = props;
+  const { baseUrl, docsUrl } = siteConfig;
   const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
   const langPart = `${language ? `${language}/` : ''}`;
   const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
@@ -22,7 +23,7 @@ function Help(props) {
   const supportLinks = [
     {
       content: `Learn more using the [documentation on this site.](${docUrl(
-        'getting-started.html',
+        'getting-started.html'
       )})`,
       title: 'Browse Docs',
     },

@@ -5,6 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+// eslint-disable-next-line import/no-extraneous-dependencies
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -13,7 +14,7 @@ const Container = CompLibrary.Container;
 
 class Users extends React.Component {
   render() {
-    const {config: siteConfig} = this.props;
+    const { config: siteConfig } = this.props;
     if ((siteConfig.users || []).length === 0) {
       return null;
     }

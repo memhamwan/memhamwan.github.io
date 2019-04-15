@@ -5,6 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+// eslint-disable-next-line import/no-extraneous-dependencies
 const React = require('react');
 
 class Footer extends React.Component {
@@ -36,7 +37,8 @@ class Footer extends React.Component {
             <a
               href="https://memhamwan.herokuapp.com/"
               target="_blank"
-              rel="noreferrer noopener">
+              rel="noreferrer noopener"
+            >
               <img src="https://memhamwan.herokuapp.com/badge.svg" />
             </a>
           </div>

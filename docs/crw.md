@@ -28,7 +28,7 @@ Assets may be viewed in the [asset tracker](https://github.com/memhamwan/invento
 | Radio    | Frequency | Channel Width |
 | -------- | --------- | ------------- |
 | omn1.crw | 5865 MHz  | 5MHz          |
-| leb.crw  |      MHz  | 20MHz         |
+| leb.crw  | MHz       | 20MHz         |
 
 ## Licensing and Permitting
 

@@ -5,21 +5,22 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+// eslint-disable-next-line import/no-extraneous-dependencies
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
-const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
+// const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
 class HomeSplash extends React.Component {
   render() {
-    const {siteConfig, language = ''} = this.props;
-    const {baseUrl, docsUrl} = siteConfig;
-    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
-    const langPart = `${language ? `${language}/` : ''}`;
-    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+    const { siteConfig } = this.props;
+    const { baseUrl } = siteConfig;
+    // const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
+    // const langPart = `${language ? `${language}/` : ''}`;
+    // const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
     const SplashContainer = props => (
       <div className="homeContainer">
@@ -29,11 +30,11 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const Logo = props => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
-      </div>
-    );
+    // const Logo = props => (
+    //   <div className="projectLogo">
+    //     <img src={props.img_src} alt="Project Logo" />
+    //   </div>
+    // );
 
     const ProjectTitle = () => (
       <h2 className="projectTitle">
@@ -42,36 +43,43 @@ class HomeSplash extends React.Component {
       </h2>
     );
 
-    const PromoSection = props => (
-      <div className="section promoSection">
-        <div className="promoRow">
-          <div className="pluginRowBlock">{props.children}</div>
-        </div>
-      </div>
-    );
+    // const PromoSection = props => (
+    //   <div className="section promoSection">
+    //     <div className="promoRow">
+    //       <div className="pluginRowBlock">{props.children}</div>
+    //     </div>
+    //   </div>
+    // );
 
-    const Button = props => (
-      <div className="pluginWrapper buttonWrapper">
-        <a className="button" href={props.href} target={props.target}>
-          {props.children}
-        </a>
-      </div>
-    );
+    // const Button = props => (
+    //   <div className="pluginWrapper buttonWrapper">
+    //     <a className="button" href={props.href} target={props.target}>
+    //       {props.children}
+    //     </a>
+    //   </div>
+    // );
 
     return (
       <div>
-      <div style={{backgroundImage: `url(${baseUrl}img/dishes.jpg)`, margin: 0, padding: 0, width: '100%', height: 300}}>
-      </div>
-      <SplashContainer>
-        <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
-          {/* <PromoSection>
+        <div
+          style={{
+            backgroundImage: `url(${baseUrl}img/dishes.jpg)`,
+            margin: 0,
+            padding: 0,
+            width: '100%',
+            height: 300,
+          }}
+        />
+        <SplashContainer>
+          <div className="inner">
+            <ProjectTitle siteConfig={siteConfig} />
+            {/* <PromoSection>
             <Button href="#try">Try It Out</Button>
             <Button href={docUrl('doc1.html')}>Example Link</Button>
             <Button href={docUrl('doc2.html')}>Example Link 2</Button>
           </PromoSection> */}
-        </div>
-      </SplashContainer>
+          </div>
+        </SplashContainer>
       </div>
     );
   }
@@ -79,14 +87,15 @@ class HomeSplash extends React.Component {
 
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = ''} = this.props;
-    const {baseUrl} = siteConfig;
+    const { config: siteConfig, language = '' } = this.props;
+    const { baseUrl } = siteConfig;
 
     const Block = props => (
       <Container
         padding={['bottom', 'top']}
         id={props.id}
-        background={props.background}>
+        background={props.background}
+      >
         <GridBlock
           align="center"
           contents={props.children}
@@ -95,27 +104,28 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
+    // const FeatureCallout = () => (
+    //   <div
+    //     className="productShowcaseSection paddingBottom"
+    //     style={{ textAlign: 'center' }}
+    //   >
+    //     <h2>Feature Callout</h2>
+    //     <MarkdownBlock>These are features of this project</MarkdownBlock>
+    //   </div>
+    // );
 
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content: 'Talk about trying this out',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'left',
-            title: 'Try it Out',
-          },
-        ]}
-      </Block>
-    );
+    // const TryOut = () => (
+    //   <Block id="try">
+    //     {[
+    //       {
+    //         content: 'Talk about trying this out',
+    //         image: `${baseUrl}img/docusaurus.svg`,
+    //         imageAlign: 'left',
+    //         title: 'Try it Out',
+    //       },
+    //     ]}
+    //   </Block>
+    // );
 
     const Description = () => (
       <Block background="dark">
@@ -131,39 +141,37 @@ class Index extends React.Component {
       </Block>
     );
 
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content: 'Talk about learning how to use this',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'right',
-            title: 'Learn How',
-          },
-        ]}
-      </Block>
-    );
+    // const LearnHow = () => (
+    //   <Block background="light">
+    //     {[
+    //       {
+    //         content: 'Talk about learning how to use this',
+    //         image: `${baseUrl}img/docusaurus.svg`,
+    //         imageAlign: 'right',
+    //         title: 'Learn How',
+    //       },
+    //     ]}
+    //   </Block>
+    // );
 
-    const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'top',
-            title: 'Feature One',
-          },
-          {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two',
-          },
-        ]}
-      </Block>
-    );
-
-    
+    // const Features = () => (
+    //   <Block layout="fourColumn">
+    //     {[
+    //       {
+    //         content: 'This is the content of my feature',
+    //         image: `${baseUrl}img/docusaurus.svg`,
+    //         imageAlign: 'top',
+    //         title: 'Feature One',
+    //       },
+    //       {
+    //         content: 'The content of my second feature',
+    //         image: `${baseUrl}img/docusaurus.svg`,
+    //         imageAlign: 'top',
+    //         title: 'Feature Two',
+    //       },
+    //     ]}
+    //   </Block>
+    // );
 
     return (
       <div>
