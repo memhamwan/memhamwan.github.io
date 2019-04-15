@@ -14,4 +14,4 @@ jobs:
   include:
     - stage: deploy
       if: branch = source
-      script: GIT_USER="${GH_NAME}" CURRENT_BRANCH="source" yarn run publish-gh-pages
+      script: cd website && GIT_USER="${GH_NAME}" CURRENT_BRANCH="source" yarn run publish-gh-pages
