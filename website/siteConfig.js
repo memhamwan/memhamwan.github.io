@@ -31,7 +31,7 @@ const siteConfig = {
     {blog: true, label: 'Blog'},
     {href: 'https://github.com/memhamwan/memhamwan.github.io', label: 'GitHub'}
   ],
-  editUrl: 'https://github.com/memhamwan/memhamwan.github.io/tree/source/',
+  editUrl: 'https://github.com/memhamwan/memhamwan.github.io/tree/source/docs/',
 
   // If you have users set above, you add it here:
   users,
