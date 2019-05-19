@@ -29,7 +29,8 @@ const siteConfig = {
     {doc: 'getting-started', label: 'Docs'},
     {href: 'https://hamwan.org', label: 'HamWAN'},
     {blog: true, label: 'Blog'},
-    {href: 'https://github.com/memhamwan/memhamwan.github.io', label: 'GitHub'}
+    {href: 'https://github.com/memhamwan/memhamwan.github.io', label: 'GitHub'},
+    {href: '/ipam', label: 'IPs'}
   ],
   editUrl: 'https://github.com/memhamwan/memhamwan.github.io/docs/',
 

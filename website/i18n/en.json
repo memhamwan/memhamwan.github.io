@@ -5,6 +5,9 @@
     "previous": "Previous",
     "tagline": "Mid-South's Experimental Wireless Data Network",
     "docs": {
+      "azo": {
+        "title": "AutoZone Store Support Center"
+      },
       "crw": {
         "title": "Olive Branch Water Tower on Craft Rd"
       },
@@ -13,13 +16,17 @@
       },
       "leb": {
         "title": "LeBonheur Children's Hospital"
+      },
+      "sco": {
+        "title": "Southern College of Optometry"
       }
     },
     "links": {
       "Docs": "Docs",
       "HamWAN": "HamWAN",
       "Blog": "Blog",
-      "GitHub": "GitHub"
+      "GitHub": "GitHub",
+      "IPs": "IPs"
     },
     "categories": {
       "Guide": "Guide",

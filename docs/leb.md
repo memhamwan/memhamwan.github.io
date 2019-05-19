@@ -44,7 +44,7 @@ Assets may be viewed in the [asset tracker](https://github.com/memhamwan/invento
 | esxi1.leb.memhamwan.net       | eth0.esxi1.leb.memhamwan.net       | 44.34.128.164 |
 | papaya.leb.memhamwan.net      | papaya.leb.memhamwan.net           | 44.34.128.165 |
 | ilo.papaya.leb.memhamwan.net  | eth0.allstar.leb.memhamwan.net     | 44.34.128.166 |
-| dstar.leb.memhamwan.net       | eth0.dstar.leb.memhamwan.net       | 44.34.128.167 |
+| sco-5.leb.memhamwan.net       | eth0.sco-5.leb.memhamwan.net       | 44.34.128.167 |
 | ptpcrw.leb.memhamwan.net      | ether1.ptpcrw.leb.memhamwan.net    | 44.34.128.168 |
 | blueiris.leb.memhamwan.net    |                                    | 44.34.128.169 |
 | ntp.leb.memhamwan.net         |                                    | 44.34.128.170 |
