@@ -47,6 +47,7 @@ class Ipam extends React.Component {
                     {this._renderIpAddressTable()}
                     </tbody>
                 </table>
+                Notice something wrong or missing? Update it in the <a href="https://github.com/memhamwan/memhamwan.github.io/blob/source/website/ips.js">database</a>.
             </Container>
             </div>
         );
