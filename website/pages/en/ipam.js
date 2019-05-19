@@ -48,6 +48,7 @@ class Ipam extends React.Component {
                     </tbody>
                 </table>
             </Container>
+            Notice something wrong or missing? Update it in the <a href="https://github.com/memhamwan/memhamwan.github.io/blob/source/website/ips.js">database</a>.
             </div>
         );
     }
