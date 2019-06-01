@@ -57,13 +57,6 @@ let ips = [
         cidr: 27
     },
     {
-        address: '44.34.128.165',
-        name: null,
-        site: sites.leb,
-        asset: null,
-        cidr: 27
-    },
-    {
         address: '44.34.128.166',
         name: null,
         site: sites.leb,
