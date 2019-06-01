@@ -153,6 +153,13 @@ let ips = [
         site: sites.leb,
         asset: null,
         cidr: 27
+    },
+    {
+        address: '44.34.128.161',
+        name: 'r1.leb',
+        sites: sites.leb,
+        asset: 10,
+        cidr: 27
     }
 ].sort((a, b) => {
     const aOctets = a.address.split('.');
