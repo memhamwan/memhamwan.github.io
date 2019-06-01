@@ -57,13 +57,6 @@ let ips = [
         cidr: 27
     },
     {
-        address: '44.34.128.165',
-        name: null,
-        site: sites.leb,
-        asset: null,
-        cidr: 27
-    },
-    {
         address: '44.34.128.166',
         name: null,
         site: sites.leb,
@@ -152,6 +145,13 @@ let ips = [
         name: null,
         site: sites.leb,
         asset: null,
+        cidr: 27
+    },
+    {
+        address: '44.34.128.161',
+        name: 'r1.leb',
+        sites: sites.leb,
+        asset: 10,
         cidr: 27
     }
 ].sort((a, b) => {
