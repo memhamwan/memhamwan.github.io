@@ -58,7 +58,7 @@ let ips = [
     },
     {
         address: '44.34.128.166',
-        name: null,
+        name: 'ilo.papaya.leb',
         site: sites.leb,
         asset: null,
         cidr: 27
@@ -106,7 +106,7 @@ let ips = [
         cidr: 27
     },
     {
-        address: 'papaya.leb',
+        name: 'papaya.leb',
         site: sites.leb,
         address: '44.34.128.165',
         cidy: 27,
