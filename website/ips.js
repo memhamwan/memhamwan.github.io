@@ -171,7 +171,7 @@ let ips = [
     {
         address: '44.34.128.161',
         name: 'r1.leb',
-        sites: sites.leb,
+        site: sites.leb,
         asset: 10,
         cidr: 27
     }
