@@ -8,10 +8,31 @@ const sites = {
 };
 let ips = [
     {
-        address: '44.34.128.37',
+        address: '44.34.128.40',
         name: 'leb.sco',
         site: sites.sco,
         asset: '5',
+        cidr: 28
+    },
+    {
+        address: '44.34.128.37',
+        name: '60g.leb.sco',
+        site: sites.sco,
+        asset: '5',
+        cidr: 28
+    },
+    {
+        address: '44.34.128.35',
+        name: 'sec2.sco',
+        site: sites.sco,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.65',
+        name: 'wlan0.sec2.sco',
+        site: sites.sco,
+        asset: null,
         cidr: 28
     },
     {
@@ -44,7 +65,7 @@ let ips = [
     },
     {
         address: '44.34.128.163',
-        name: '60g-leb.sco',
+        name: 'wlan.60g.leb.sco',
         site: sites.leb,
         asset: null,
         cidr: 27
