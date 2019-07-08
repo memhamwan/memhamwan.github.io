@@ -1,6 +1,7 @@
 {
   "docs": {
     "Guide": ["getting-started"],
-    "Network": ["leb", "crw"]
+    "Network": ["leb", "crw"],
+    "Organization": ["bylaws"]
   }
 }
