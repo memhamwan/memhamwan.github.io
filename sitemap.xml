@@ -5,6 +5,7 @@
 <url> <loc>https://memhamwan.org/ipam</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://memhamwan.org/en/ipam" /> </url>
 <url> <loc>https://memhamwan.org/blog/2016/02/16/memhamwan-expands-to-raleigh-with-new-site-on-methodist-north-hospital</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://memhamwan.org/docs/azo</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://memhamwan.org/docs/azo" /> </url>
+<url> <loc>https://memhamwan.org/docs/bylaws</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://memhamwan.org/docs/bylaws" /> </url>
 <url> <loc>https://memhamwan.org/docs/crw</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://memhamwan.org/docs/crw" /> </url>
 <url> <loc>https://memhamwan.org/docs/getting-started</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://memhamwan.org/docs/getting-started" /> </url>
 <url> <loc>https://memhamwan.org/docs/leb</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://memhamwan.org/docs/leb" /> </url>
