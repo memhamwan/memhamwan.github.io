@@ -22,6 +22,13 @@ let ips = [
         cidr: 28
     },
     {
+        address: '44.34.128.34',
+        name: 'sec1.sco',
+        site: sites.sco,
+        asset: null,
+        cidr: 28
+    },
+    {
         address: '44.34.128.35',
         name: 'sec2.sco',
         site: sites.sco,
@@ -29,8 +36,29 @@ let ips = [
         cidr: 28
     },
     {
+        address: '44.34.128.36',
+        name: 'sec3.sco',
+        site: sites.sco,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.39',
+        name: 'vrrp.sco',
+        site: sites.sco,
+        asset: null,
+        cidr: 28
+    },
+    {
         address: '44.34.128.65',
         name: 'wlan0.sec2.sco',
+        site: sites.sco,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.33',
+        name: 'r1.sco',
         site: sites.sco,
         asset: null,
         cidr: 28
