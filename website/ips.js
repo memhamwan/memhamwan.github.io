@@ -50,6 +50,76 @@ let ips = [
         cidr: 28
     },
     {
+        address: '44.34.128.97',
+        name: 'leb.hil',
+        site: sites.hil,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.101',
+        name: 'sec3.hil',
+        site: sites.hil,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.145',
+        name: 'wlan.sec3.hil',
+        site: sites.hil,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.102',
+        name: 'vrrp.hil',
+        site: sites.hil,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.222',
+        name: 'k4sof',
+        site: null,
+        asset: null,
+        cidr: null
+    },
+    {
+        address: '44.34.128.175',
+        name: 'hil.leb',
+        site: sites.leb,
+        asset: null,
+        cidr: 27
+    },
+    {
+        address: '44.34.131.130',
+        name: 'wlan.hil.leb',
+        site: sites.leb,
+        asset: null,
+        cidr: 32
+    },
+    {
+        address: '44.34.131.131',
+        name: 'wlan.leb.hil',
+        site: sites.hil,
+        asset: null,
+        cidr: 32
+    },
+    {
+        address: '44.34.131.142',
+        name: 'wlan.azo.leb',
+        site: sites.leb,
+        asset: null,
+        cidr: 32,
+    },
+    {
+        address: '44.34.131.143',
+        name: 'wlan.leb.azo',
+        site: sites.azo,
+        asset: null,
+        cidr: 32
+    },
+    {
         address: '44.34.128.65',
         name: 'wlan0.sec2.sco',
         site: sites.sco,
