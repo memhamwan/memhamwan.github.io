@@ -4,6 +4,9 @@ const sites = {
     },
     leb: {
         abbreviation: 'leb'
+    },
+    client: {
+        abbreviation: 'clients'
     }
 };
 let ips = [
@@ -80,14 +83,14 @@ let ips = [
     {
         address: '44.34.128.222',
         name: 'k4sof',
-        site: null,
+        site: sites.leb,
         asset: null,
         cidr: null
     },
     {
         address: '44.34.128.175',
         name: 'hil.leb',
-        site: sites.leb,
+        site: sites.client,
         asset: null,
         cidr: 27
     },
