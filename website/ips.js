@@ -186,14 +186,21 @@ let ips = [
         name: 'wlan.mno.hil',
         site: sites.hil,
         asset: null,
-        cidr: 28
+        cidr: 32
     },
     {
         address: '44.34.131.138',
         name: 'wlan.hil.mno',
         site: sites.mno,
         asset: null,
-        cidr: 28
+        cidr: 32
+    },
+    {
+        address: '44.34.129.38',
+        name: 'hil.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 27
     },
     {
         address: '44.34.128.99',
