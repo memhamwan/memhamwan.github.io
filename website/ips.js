@@ -23,6 +23,9 @@ const sites = {
     mno: {
         abbreviation: 'mno'
     },
+    hil: {
+        abbreviation: 'hil'
+    },
     azo: {
         abbreviation: 'azo'
     },
@@ -31,6 +34,13 @@ const sites = {
     }
 };
 let ips = [
+    {
+        address: '44.34.129.49',
+        name: 'ap1.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 27
+    }
     {
         address: '44.34.128.40',
         name: 'leb.sco',
@@ -92,28 +102,28 @@ let ips = [
         name: 'leb.mno',
         site: sites.mno,
         asset: null,
-        cidr: 28
+        cidr: 27
     },
     {
         address: '44.34.129.35',
         name: 'r2.mno',
         site: sites.mno,
         asset: null,
-        cidr: 28
+        cidr: 27
     },
     {
         address: '44.34.129.33',
         name: 'vrrp.mno',
         site: sites.mno,
         asset: null,
-        cidr: 28
+        cidr: 27
     },
     {
         address: '44.34.129.34',
         name: 'r1.mno',
         site: sites.mno,
         asset: null,
-        cidr: 28
+        cidr: 27
     },
     {
         address: '44.34.131.140',
@@ -134,7 +144,7 @@ let ips = [
         name: 'sec1.mno',
         site: sites.mno,
         asset: null,
-        cidr: 28
+        cidr: 27
     },
     {
         address: '44.34.128.241',
@@ -148,7 +158,7 @@ let ips = [
         name: 'sec2.mno',
         site: sites.mno,
         asset: null,
-        cidr: 28
+        cidr: 27
     },
     {
         address: '44.34.129.1',
@@ -162,7 +172,7 @@ let ips = [
         name: 'sec3.mno',
         site: sites.mno,
         asset: null,
-        cidr: 28
+        cidr: 27
     },
     {
         address: '44.34.129.17',
