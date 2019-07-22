@@ -2,14 +2,11 @@
 language: node_js
 node_js:
   - '8'
-branches:
-  only:
-    - source
 cache:
   yarn: true
 script:
   - git config --global user.name "${GH_NAME}"
   - git config --global user.email "${GH_EMAIL}"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
-  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then cd website && yarn install; fi
-  - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then cd website && yarn install && GIT_USER="${GH_NAME}" CURRENT_BRANCH="source" yarn run publish-gh-pages; fi
+  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then cd website && yarn install && yarn test; fi
+  - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then cd website && yarn install && yarn test && GIT_USER="${GH_NAME}" CURRENT_BRANCH="source" yarn run publish-gh-pages; fi
