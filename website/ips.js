@@ -1,9 +1,30 @@
+
+const sortIps = (a, b) => {
+    const aOctets = a.split('.');
+    const bOctets = b.split('.');
+    if(aOctets.length != 4 || bOctets.length != 4) throw new Error("must be a valid IPv4 address");
+    for(let n = 0; n < 4; n++) {
+        x = Number(aOctets[n]);
+        y = Number(bOctets[n]);
+        if(x == NaN || y == NaN) throw new Error("must be a valid IPv4 address");
+        if(x > y) return 1;
+        if(x < y) return -1;
+    }
+    return 0;
+};
+
 const sites = {
     sco: {
         abbreviation: 'sco'
     },
     leb: {
         abbreviation: 'leb'
+    },
+    mno: {
+        abbreviation: 'mno'
+    },
+    azo: {
+        abbreviation: 'azo'
     },
     client: {
         abbreviation: 'clients'
@@ -55,6 +76,132 @@ let ips = [
     {
         address: '44.34.128.97',
         name: 'leb.hil',
+        site: sites.hil,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.110',
+        name: 'mno.hil',
+        site: sites.hil,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.129.39',
+        name: 'leb.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.129.35',
+        name: 'r2.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.129.33',
+        name: 'vrrp.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.129.34',
+        name: 'r1.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.131.140',
+        name: 'wlan.leb.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 32
+    },
+    {
+        address: '44.34.131.141',
+        name: 'wlan.mno.leb',
+        site: sites.leb,
+        asset: null,
+        cidr: 32
+    },
+    {
+        address: '44.34.129.40',
+        name: 'sec1.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.241',
+        name: 'wlan.sec1.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.129.41',
+        name: 'sec2.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.129.1',
+        name: 'wlan.sec2.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.129.42',
+        name: 'sec3.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.129.17',
+        name: 'wlan.sec3.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.131.139',
+        name: 'wlan.mno.hil',
+        site: sites.hil,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.131.138',
+        name: 'wlan.hil.mno',
+        site: sites.mno,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.99',
+        name: 'sec1.hil',
+        site: sites.hil,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.113',
+        name: 'wlan.sec1.hil',
+        site: sites.hil,
+        asset: null,
+        cidr: 28
+    },
+    {
+        address: '44.34.128.100',
+        name: 'sec2.hil',
         site: sites.hil,
         asset: null,
         cidr: 28
@@ -222,7 +369,7 @@ let ips = [
     },
     {
         address: '44.34.128.174',
-        name: 'mno.leb',
+        name: 'vrrp.leb',
         site: sites.leb,
         asset: null,
         cidr: 27
@@ -264,10 +411,17 @@ let ips = [
     },
     {
         address: '44.34.128.183',
-        name: null,
+        name: 'omn1.leb',
         site: sites.leb,
         asset: null,
         cidr: 27
+    },
+    {
+        address: '44.34.128.209',
+        name: 'wlan.omn1.leb',
+        site: sites.leb,
+        asset: null,
+        cidr: 28
     },
     {
         address: '44.34.128.161',
@@ -276,16 +430,8 @@ let ips = [
         asset: 10,
         cidr: 27
     }
-].sort((a, b) => {
-    const aOctets = a.address.split('.');
-    const bOctets = b.address.split('.');
-    for(let n = 0; n < 4; n++) {
-        if(aOctets[n] > bOctets[n]) return true;
-        if(aOctets[n] < bOctets[n]) return false;
-    }
-    return false;
-});
+].sort((a, b) => sortIps(a.address, b.address));
 
 const getIpsForSite = (site) => ips.filter(ip => ip.site === site);
 
-module.exports = { ips, getIpsForSite, sites };
+module.exports = { ips, getIpsForSite, sites, sortIps };
