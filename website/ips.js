@@ -40,7 +40,7 @@ let ips = [
         site: sites.mno,
         asset: null,
         cidr: 27
-    }
+    },
     {
         address: '44.34.128.40',
         name: 'leb.sco',
