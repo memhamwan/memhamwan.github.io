@@ -420,6 +420,14 @@
       "cidr": 27
     },
     {
+      "address": "44.34.128.16",
+      "name": "memhamwan.media",
+      "site": "leb",
+      "asset": "6",
+      "os": "Ubuntu",
+      "cidr": 27
+    },
+    {
       "address": "44.34.128.162",
       "name": "r2.leb",
       "site": "leb",
