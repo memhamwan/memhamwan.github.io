@@ -3,7 +3,8 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
-const { ips, sites } = require(process.cwd() + '/ips.js');
+const { ips, sites } = require(process.cwd() + '/ipam.json');
+const { sortIps } = require(process.cwd() + '/ips.js');
 
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
@@ -15,12 +16,12 @@ class Ipam extends React.Component {
     }
 
     _renderIpAddressTable() {
-    return ips.filter(ip => ip.site === this.state.site || this.state.site === null).map((ip) => 
+    return ips.sort((a, b) => sortIps(a.address, b.address)).map((ip) => 
         <tr key={ip.address}>
             <td>{ip.address}</td>
             <td>{ip.cidr}</td>
             <td><a href={"http://" + ip.name + ".memhamwan.net"}>{ip.name}</a></td>
-            <td><a href={"docs/" + ip.site.abbreviation}>{ip.site.abbreviation}</a></td>
+            <td><a href={"docs/" + ip.site}>{ip.site}</a></td>
             <td><a href={"https://github.com/memhamwan/inventory/issues/" + ip.asset}>{ip.asset}</a></td>
         </tr>
     );
@@ -47,7 +48,7 @@ class Ipam extends React.Component {
                     {this._renderIpAddressTable()}
                     </tbody>
                 </table>
-                Notice something wrong or missing? Update it in the <a href="https://github.com/memhamwan/memhamwan.github.io/blob/source/website/ips.js">database</a>.
+                Notice something wrong or missing? Update it in the <a href="https://github.com/memhamwan/memhamwan.github.io/blob/source/website/ipam.json">database</a>.
             </Container>
             </div>
         );
