@@ -1,5 +1,5 @@
 {
-  "sites": ["sco", "leb", "mno", "hil", "azo", "client"],
+  "sites": ["sco", "leb", "mno", "hil", "azo", "client", "crw"],
   "ips": [
     {
       "address": "44.34.129.49",
@@ -14,6 +14,40 @@
       "name": "wlan.sec1.sco",
       "isAdditionalInterface": true,
       "site": "sco",
+      "asset": null,
+      "os": "routeros",
+      "cidr": 28
+    },
+    {
+      "address": "44.34.129.113",
+      "name": "vrrp.crw",
+      "isAdditionalInterface": true,
+      "site": "crw",
+      "asset": null,
+      "os": "routeros",
+      "cidr": 28
+    },
+    {
+      "address": "44.34.129.116",
+      "name": "r1.crw",
+      "site": "crw",
+      "asset": null,
+      "os": "routeros",
+      "cidr": 28
+    },
+    {
+      "address": "44.34.129.115",
+      "name": "leb.crw",
+      "site": "crw",
+      "asset": null,
+      "os": "routeros",
+      "cidr": 28
+    },
+    {
+      "address": "44.34.131.144",
+      "name": "wlan.leb.crw",
+      "isAdditionalInterface": true,
+      "site": "crw",
       "asset": null,
       "os": "routeros",
       "cidr": 28
@@ -378,7 +412,7 @@
       "cidr": 32
     },
     {
-      "address": "44.34.128.167",
+      "address": "44.34.128.173",
       "name": "sco.leb",
       "site": "leb",
       "asset": "6",
