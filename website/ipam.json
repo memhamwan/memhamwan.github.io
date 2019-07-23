@@ -423,7 +423,7 @@
       "address": "44.34.128.16",
       "name": "memhamwan.media",
       "site": "leb",
-      "asset": "6",
+      "asset": null,
       "os": "linux",
       "cidr": 27
     },
