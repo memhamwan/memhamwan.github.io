@@ -28,22 +28,6 @@
       "cidr": 28
     },
     {
-      "address": "44.34.129.117",
-      "name": "r2.crw",
-      "site": "crw",
-      "asset": null,
-      "os": "routeros",
-      "cidr": 28
-    },
-    {
-      "address": "44.34.129.118",
-      "name": "r3.crw",
-      "site": "crw",
-      "asset": null,
-      "os": "routeros",
-      "cidr": 28
-    },
-    {
       "address": "44.34.129.116",
       "name": "r1.crw",
       "site": "crw",
@@ -54,31 +38,6 @@
     {
       "address": "44.34.129.115",
       "name": "leb.crw",
-      "site": "crw",
-      "asset": null,
-      "os": "routeros",
-      "cidr": 28
-    },
-    {
-      "address": "44.34.129.119",
-      "name": "omn2.crw",
-      "site": "crw",
-      "asset": null,
-      "os": "routeros",
-      "cidr": 28
-    },
-    {
-      "address": "44.34.129.114",
-      "name": "omn1.crw",
-      "site": "crw",
-      "asset": null,
-      "os": "routeros",
-      "cidr": 28
-    },
-    {
-      "address": "44.34.129.129",
-      "name": "wlan.omn1.crw",
-      "isAdditionalInterface": true,
       "site": "crw",
       "asset": null,
       "os": "routeros",
@@ -409,8 +368,17 @@
       "cidr": 32
     },
     {
+      "address": "44.34.131.143",
+      "name": "wlan.leb.azo",
+      "isAdditionalInterface": true,
+      "site": "azo",
+      "asset": null,
+      "os": "routeros",
+      "cidr": 32
+    },
+    {
       "address": "44.34.128.65",
-      "name": "wlan.sec2.sco",
+      "name": "wlan0.sec2.sco",
       "isAdditionalInterface": true,
       "site": "sco",
       "asset": null,
@@ -427,7 +395,7 @@
     },
     {
       "address": "44.34.131.132",
-      "name": "wlan.sco.leb",
+      "name": "wlan0.sco.leb",
       "isAdditionalInterface": true,
       "site": "leb",
       "asset": "6",
@@ -436,7 +404,7 @@
     },
     {
       "address": "44.34.131.133",
-      "name": "wlan.leb.sco",
+      "name": "wlan0.leb.sco",
       "isAdditionalInterface": true,
       "site": "sco",
       "asset": "5",
@@ -449,6 +417,14 @@
       "site": "leb",
       "asset": "6",
       "os": "routeros",
+      "cidr": 27
+    },
+    {
+      "address": "44.34.128.16",
+      "name": "memhamwan.media",
+      "site": "leb",
+      "asset": "6",
+      "os": "linux",
       "cidr": 27
     },
     {
@@ -596,32 +572,6 @@
       "asset": 10,
       "os": "routeros",
       "cidr": 27
-    },
-    {
-      "address": "44.34.131.143",
-      "name": "wlan.leb.azo",
-      "isAdditionalInterface": true,
-      "site": "azo",
-      "asset": null,
-      "os": "routeros",
-      "cidr": 32
-    },
-    {
-      "address": "44.34.129.65",
-      "name": "vrrp.azo",
-      "isAdditionalInterface": true,
-      "site": "azo",
-      "asset": null,
-      "os": "routeros",
-      "cidr": 28
-    },
-    {
-      "address": "44.34.129.68",
-      "name": "leb.azo",
-      "site": "azo",
-      "asset": null,
-      "os": "routeros",
-      "cidr": 28
     }
   ]
 }
