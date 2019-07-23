@@ -424,7 +424,7 @@
       "name": "memhamwan.media",
       "site": "leb",
       "asset": "6",
-      "os": "Ubuntu",
+      "os": "linux",
       "cidr": 27
     },
     {
