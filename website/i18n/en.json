@@ -8,6 +8,9 @@
       "azo": {
         "title": "AutoZone Store Support Center"
       },
+      "bylaws": {
+        "title": "HamWAN Memphis Metro Bylaws"
+      },
       "crw": {
         "title": "Olive Branch Water Tower on Craft Rd"
       },
@@ -30,7 +33,8 @@
     },
     "categories": {
       "Guide": "Guide",
-      "Network": "Network"
+      "Network": "Network",
+      "Organization": "Organization"
     }
   },
   "pages-strings": {
