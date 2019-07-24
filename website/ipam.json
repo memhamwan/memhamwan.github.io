@@ -630,6 +630,54 @@
       "asset": null,
       "os": "routeros",
       "cidr": 28
+    },
+    {
+      "address": "44.34.129.66",
+      "name": "r1.azo",
+      "site": "azo",
+      "asset": null,
+      "os": "routeros",
+      "cidr": 28
+    },
+    {
+      "address": "44.34.129.67",
+      "name": "omn2.azo",
+      "site": "azo",
+      "asset": null,
+      "os": "routeros",
+      "cidr": 28
+    },
+    {
+      "address": "44.34.129.74",
+      "name": "r3.azo",
+      "site": "azo",
+      "asset": null,
+      "os": "routeros",
+      "cidr": 28
+    },
+    {
+      "address": "44.34.129.73",
+      "name": "r2.azo",
+      "site": "azo",
+      "asset": null,
+      "os": "routeros",
+      "cidr": 28
+    },
+    {
+      "address": "44.34.129.72",
+      "name": "cam.azo",
+      "site": "azo",
+      "asset": null,
+      "os": "uvc",
+      "cidr": 28
+    },
+    {
+      "address": "44.34.129.71",
+      "name": "weather.azo",
+      "site": "azo",
+      "asset": null,
+      "os": "ambient-weather",
+      "cidr": 28
     }
   ]
 }
