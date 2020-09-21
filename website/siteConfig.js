@@ -31,7 +31,7 @@ const siteConfig = {
     {blog: true, label: 'Blog'},
     {href: 'https://github.com/memhamwan/memhamwan.github.io', label: 'GitHub'},
     {href: '/ipam', label: 'IPs'},
-    {hreg: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8HFSU6MSFLUF8&source=url', label: 'Donate'}
+    {href: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8HFSU6MSFLUF8&source=url', label: 'Donate'}
   ],
   editUrl: 'https://github.com/memhamwan/memhamwan.github.io/docs/',
 
