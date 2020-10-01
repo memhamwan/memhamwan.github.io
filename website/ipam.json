@@ -1,5 +1,5 @@
 {
-  "sites": ["sco", "leb", "mno", "hil", "azo", "client", "crw", "mcm"],
+  "sites": ["sco", "leb", "mno", "hil", "azo", "client", "crw"],
   "ips": [
     {
       "address": "44.34.129.49",
@@ -368,18 +368,10 @@
     {
       "address": "44.34.128.222",
       "name": "k4sof",
-      "site": "mcn",
-      "asset": "wlan1-gateway",
+      "site": "client",
+      "asset": null,
       "os": "routeros",
-      "cidr": 28
-    },
-    {
-      "address": "44.34.129.147",
-      "name": "k4sof",
-      "site": "mcn",
-      "asset": "ether1",
-      "os": "routeros",
-      "cidr": 28
+      "cidr": null
     },
     {
       "address": "44.34.128.175",
@@ -686,38 +678,6 @@
       "asset": null,
       "os": "ambient-weather",
       "cidr": 28
-    },
-    {
-      "address": "44.34.129.146",
-      "name": "ptpsam.ryan",
-      "site": "mcn",
-      "asset": "ether1-local",
-      "os": "routeros",
-      "cidr": 28
-    },
-    {
-      "address": "44.34.131.146",
-      "name": "ptpsam.ryan",
-      "site": "mcn",
-      "asset": "bridge1",
-      "os": "routeros",
-      "cidr": 32
-    },
-    {
-      "address": "44.34.128.38",
-      "name": "apc.sco",
-      "site": "sco",
-      "asset": null,
-      "os": "apc",
-      "cidr": 28
-    },
-    {
-      "address": "44.34.131.147",
-      "name": "ptpryan.sam",
-      "site": "mcn",
-      "asset": "bridge1",
-      "os": "routeros",
-      "cidr": 32
     }
   ]
 }
