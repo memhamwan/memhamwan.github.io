@@ -25,11 +25,11 @@
       }
     },
     "links": {
-      "Docs": "Docs",
       "HamWAN": "HamWAN",
       "Blog": "Blog",
-      "GitHub": "GitHub",
-      "IPs": "IPs"
+      "Wiki": "Wiki",
+      "Chat": "Chat",
+      "Donate": "Donate"
     },
     "categories": {
       "Guide": "Guide",
