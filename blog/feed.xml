@@ -4,15 +4,22 @@
         <title>HamWAN Memphis Metro Blog</title>
         <link>https://memhamwan.org/blog</link>
         <description>The best place to stay up-to-date with the latest HamWAN Memphis Metro news and events.</description>
-        <lastBuildDate>Tue, 16 Feb 2016 06:00:00 GMT</lastBuildDate>
-        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <generator>Feed for Node.js</generator>
+        <lastBuildDate>Thu, 15 Apr 2021 06:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>HamWAN Memphis Metro Blog</title>
             <url>https://memhamwan.org/img/logo.png</url>
             <link>https://memhamwan.org/blog</link>
         </image>
-        <copyright>Copyright © 2020 HamWAN Memphis Metro</copyright>
+        <copyright>Copyright © 2021 HamWAN Memphis Metro</copyright>
+        <item>
+            <title><![CDATA[New boat tracker, improved webcam, and repaired weather station deployed at our downtown Memphis site (AZO)]]></title>
+            <link>https://memhamwan.org/blog/2021/04/15/new-network-services.html</link>
+            <guid>https://memhamwan.org/blog/2021/04/15/new-network-services.html</guid>
+            <pubDate>Thu, 15 Apr 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Today, @seichold (K4SOF) and @turnrye (K0RET) completed maintenance at our downtown Memphis site. This site provides fill-in coverage to downtown users and experimental 2.4 GHz access for users who don't have line-of-sight to our existing sites (e.g....</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[MemHamWAN Expands to Raleigh with New Site on Methodist North Hospital]]></title>
             <link>https://memhamwan.org/blog/2016/02/16/memhamwan-expands-to-raleigh-with-new-site-on-methodist-north-hospital.html</link>

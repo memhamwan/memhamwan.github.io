@@ -2,18 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://memhamwan.org/blog</id>
     <title>HamWAN Memphis Metro Blog</title>
-    <updated>2016-02-16T06:00:00Z</updated>
-    <generator>Feed for Node.js</generator>
+    <updated>2021-04-15T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://memhamwan.org/blog"/>
     <subtitle>The best place to stay up-to-date with the latest HamWAN Memphis Metro news and events.</subtitle>
     <logo>https://memhamwan.org/img/logo.png</logo>
-    <rights>Copyright © 2020 HamWAN Memphis Metro</rights>
+    <rights>Copyright © 2021 HamWAN Memphis Metro</rights>
+    <entry>
+        <title type="html"><![CDATA[New boat tracker, improved webcam, and repaired weather station deployed at our downtown Memphis site (AZO)]]></title>
+        <id>https://memhamwan.org/blog/2021/04/15/new-network-services.html</id>
+        <link href="https://memhamwan.org/blog/2021/04/15/new-network-services.html"/>
+        <updated>2021-04-15T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Today, @seichold (K4SOF) and @turnrye (K0RET) completed maintenance at our downtown Memphis site. This site provides fill-in coverage to downtown users and experimental 2.4 GHz access for users who don't have line-of-sight to our existing sites (e.g....</p>]]></summary>
+        <author>
+            <name>Ryan Turner</name>
+            <uri>https://twitter/com/turnrye</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MemHamWAN Expands to Raleigh with New Site on Methodist North Hospital]]></title>
         <id>https://memhamwan.org/blog/2016/02/16/memhamwan-expands-to-raleigh-with-new-site-on-methodist-north-hospital.html</id>
-        <link href="https://memhamwan.org/blog/2016/02/16/memhamwan-expands-to-raleigh-with-new-site-on-methodist-north-hospital.html">
-        </link>
-        <updated>2016-02-16T06:00:00Z</updated>
+        <link href="https://memhamwan.org/blog/2016/02/16/memhamwan-expands-to-raleigh-with-new-site-on-methodist-north-hospital.html"/>
+        <updated>2016-02-16T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>On February 13, 2016, HamWAN Memphis Metro along with partner Delta Amateur Radio Club deployed a new cell site at Methodist North Hospital. This site is the third such site to be deployed in the region, and soon much of the Delta Amateur Radio Club’...</p>]]></summary>
         <author>
             <name>Ryan Turner</name>
