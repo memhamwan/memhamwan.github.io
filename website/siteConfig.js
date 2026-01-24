@@ -29,7 +29,7 @@ const siteConfig = {
     {href: 'https://hamwan.org', label: 'HamWAN'},
     {blog: true, label: 'Blog'},
     {href: 'https://github.com/memhamwan/memhamwan.github.io/wiki', label: 'Wiki'},
-    {href: 'https://memhamwan.herokuapp.com/', label: 'Chat'},
+    {href: 'https://discord.gg/5ffNtM4WDw', label: 'Chat'},
     {href: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8HFSU6MSFLUF8&source=url', label: 'Donate'}
   ],
   editUrl: 'https://github.com/memhamwan/memhamwan.github.io/docs/',
