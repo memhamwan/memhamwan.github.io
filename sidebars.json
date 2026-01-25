@@ -2,7 +2,6 @@
   "docs": {
     "Documentation": ["index"],
     "Guide": ["getting-started"],
-    "Network": ["azo", "crw", "leb", "sco"],
     "Organization": [
       "bylaws",
       {
