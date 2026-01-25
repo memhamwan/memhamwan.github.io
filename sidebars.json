@@ -1,0 +1,28 @@
+{
+  "docs": {
+    "Documentation": ["index"],
+    "Guide": ["getting-started"],
+    "Network": ["azo", "crw", "leb", "sco"],
+    "Organization": [
+      "bylaws",
+      {
+        "type": "category",
+        "label": "Board Minutes",
+        "items": [
+          "board/minutes/2015-01-07",
+          "board/minutes/2015-02-04",
+          "board/minutes/2022-03-24",
+          "board/minutes/2022-07-13",
+          "board/minutes/2022-09-22"
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Member Minutes",
+        "items": [
+          "members/minutes/2022-08-25"
+        ]
+      }
+    ]
+  }
+}

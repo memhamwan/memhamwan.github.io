@@ -1,10 +1,11 @@
 ---
 title: New boat tracker, improved webcam, and repaired weather station deployed at our downtown Memphis site (AZO)
-author: Ryan Turner
-authorURL: https://twitter/com/turnrye
+authors: [ryan_turner]
 ---
 
-Today, @seichold (K4SOF) and @turnrye (K0RET) completed maintenance at our downtown Memphis site. This site provides fill-in coverage to downtown users and experimental 2.4 GHz access for users who don't have line-of-sight to our existing sites (e.g. residents on Mud Island and downtown proper with multipath between buildings). This site is sponsored by AutoZone at their store support center. 
+Today, @seichold (K4SOF) and @turnrye (K0RET) completed maintenance at our downtown Memphis site. This site provides fill-in coverage to downtown users and experimental 2.4 GHz access for users who don't have line-of-sight to our existing sites (e.g. residents on Mud Island and downtown proper with multipath between buildings). This site is sponsored by AutoZone at their store support center.
+
+<!-- truncate --> 
 
 The trip was focused on improving the on-network services that are hosted at AutoZone by repairing the weather station and replacing the partially-damaged webcam with a new, higher-definition camera. The camera is accessible on our [Blueiris server](http://blueiris.leb.memhamwan.net/) for users who are interested to watch the M bridge, pyramid, and other parts of the north-facing skyline. The weather station is accessible on [Weather Undergrounod](https://www.wunderground.com/dashboard/pws/KTNMEMPH93), contributing to the PWS network in support of more accurate weather forecasts and hyper-localized realtime weather data for the community.
 

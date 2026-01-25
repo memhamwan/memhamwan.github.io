@@ -11,4 +11,6 @@ website/node_modules
 website/i18n/*
 !website/i18n/en.json
 
-.nvmrc
+# Docusaurus v2
+.docusaurus
+build
